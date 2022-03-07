@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
+//  variable 'name' is defined as the string 'Dane'
+//  if else statement checks if the variable name is Mary via a strict equality operator. This means that the type, length, and caps must also match to be evaluated as true
+//  if the statement is evaluated as true, it will log 'Hi, Mary!' in the console. If not, the else determines that the console witll log 'How do you do?'?
 // 
-// 
-// 
-//
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 'let secret' creates the variable secret but does not define it. 
+// 'let code = 123;' defines code as the number 123
+// an if statement says if the code is equal to 123, the variable 'secret' will be defined as 'super', and code will be redefines as code multiplied by 2.
+// a separate if statement evaluates if code is > 250. If it redefines 'secret' as 'duper'
+// the console will log the variable secret. In this case, (123*2)<250, so it should print 'super'. 
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  the variable isStudent is defined as the boolean true. age is defined as the number 34. Zip is defined as the number 55407. 
+// if evaluates whether isStudent is defined as true AND zip has a value of over 80000. If this is true(it is not), the console logs 'You're a stuedent om the west coast'.
+// the if statement then moves on to check the next statement if the first returns as false. The else if evaluates if isStudent is false OR age is <30. If it returns as true, the console log prints 'What are your hobbies?'.
+// if not true, it moves onto the next else if, which evaluates if isStudent and ONLY isStudent is true. If true, the console logs 'Welcome to prime!'
+// if none of the above return true, the else has the console log prints 'How is the weather?'
 
 //CODE
 /*
@@ -134,8 +136,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-if (mix === true) {
-  colorOne = 'purple';
+//fix if (colorOne === 'red' && colorTwo === 'blue' && mix === true) {
+//fix  colorOne = 'purple'
+//fix  colorTwo = 'purple';
 }
 */
 
@@ -147,7 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+//fix if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,7 +163,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+fix // if(minAge < age) {
   console.log('no entry');
 } else {
   console.log('enter');
