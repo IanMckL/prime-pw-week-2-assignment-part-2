@@ -29,7 +29,7 @@ if (number >= 2) {
 //  variable 'name' is defined as the string 'Dane'
 //  if else statement checks if the variable name is Mary via a strict equality operator. This means that the type, length, and caps must also match to be evaluated as true
 //  if the statement is evaluated as true, it will log 'Hi, Mary!' in the console. If not, the else determines that the console witll log 'How do you do?'?
-// 
+// output should be "how do you do?"
 
 //CODE
 /*
@@ -75,7 +75,7 @@ console.log(secret)
 // if evaluates whether isStudent is defined as true AND zip has a value of over 80000. If this is true(it is not), the console logs 'You're a stuedent om the west coast'.
 // the if statement then moves on to check the next statement if the first returns as false. The else if evaluates if isStudent is false OR age is <30. If it returns as true, the console log prints 'What are your hobbies?'.
 // if not true, it moves onto the next else if, which evaluates if isStudent and ONLY isStudent is true. If true, the console logs 'Welcome to prime!'
-// if none of the above return true, the else has the console log prints 'How is the weather?'
+// if none of the above return true, the else has the console log prints 'How is the weather?'.  In this case it should print "Welcome to prime"
 
 //CODE
 /*
