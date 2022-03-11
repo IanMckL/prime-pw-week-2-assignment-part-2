@@ -136,7 +136,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-//fix if (colorOne === 'red' && colorTwo === 'blue' && mix === true) {
+//fix  if (mix === true) {
 //fix  colorOne = 'purple'
 //fix  colorTwo = 'purple';
 }
@@ -148,7 +148,7 @@ let mix = true;
 
 /*
 let temp = 40;
-const time = 4;
+let time = 4;
 
 //fix if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
@@ -163,7 +163,7 @@ const time = 4;
 let age = 21;
 const minAge = 21;
 
-fix // if(minAge < age) {
+fix // if(minAge > age) {
   console.log('no entry');
 } else {
   console.log('enter');
